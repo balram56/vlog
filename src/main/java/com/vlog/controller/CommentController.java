@@ -25,5 +25,9 @@ public class CommentController {
         CommentDto dtos = commentService.createComment(commentDto, postId);
         return new ResponseEntity<>(dtos, HttpStatus.CREATED);
     }
+    //for git hub push nd pull command used 
+    public void test(){
+    }
+        
 
 }
